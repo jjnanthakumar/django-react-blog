@@ -26,11 +26,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 # SECRET_KEY = 'nc5pv%qj6r*yweazfwn@%8gam&h=atf!10ii9=*sq+qrmq8u0h'
-SECRET_KEY = os.getenv("DJANGO_SECRET_KEY")
+SECRET_KEY = os.getenv("DJANGO_SECRET_KEY",'SECRET_KEY_NANDY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = True
-DEBUG = (os.environ.get('DEBUG_VALUE') == 'True')
+DEBUG = (os.environ.get('DEBUG_VALUE','True') == 'True')
 
 ALLOWED_HOSTS = ['react-future-diary-blog.netlify.app', 'djangoblogapi.herokuapp.com', '127.0.0.1']
 # CORS_ORIGIN_ALLOW_ALL = True
@@ -149,7 +149,7 @@ REST_FRAMEWORK = {
 
 CORS_ALLOWED_ORIGINS = [
 	"http://localhost:3000",
-	"https://react-future-diary-blog.netlify.app/"
+	"https://react-future-diary-blog.netlify.app"
 ]
 
 # Custom user model
