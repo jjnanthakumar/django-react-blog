@@ -1,0 +1,34 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "author": "elon",
+      "title": "Is react useful",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus est fugit, voluptatum possimus perferendis quis, ab quaerat harum aperiam animi velit itaque aliquid molestiae eum temporibus! Quia, maiores consectetur, repellat natus asperiores eligendi ullam sapiente aperiam ea, explicabo facilis in similique nemo nostrum? Dolorem fugiat impedit nihil voluptatibus aut itaque!"
+    },
+    {
+      "id": 2,
+      "author": "shah",
+      "title": "Race week!",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quas nam soluta. Totam explicabo aut debitis voluptas dignissimos possimus quam sequi molestias aliquid amet quos, necessitatibus asperiores, quasi earum nulla."
+    },
+    {
+      "id": 3,
+      "author": "naman",
+      "title": "Please get me internships",
+      "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit magnam iure inventore veniam, hic praesentium eveniet ut dolores quas. Non, suscipit! Iusto eveniet inventore quod sunt, odio illo quae eius?"
+    },
+    {
+      "id": 4,
+      "author": "naman",
+      "title": "Lol, i got one!",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta recusandae eveniet nihil earum tempore. Explicabo quos a amet, animi quaerat, eum, maiores quo possimus neque quidem esse? Voluptatibus, fugit repellendus!"
+    },
+    {
+      "title": "something",
+      "body": "yeah yeah yeah",
+      "author": "naman",
+      "id": 5
+    }
+  ]
+}
